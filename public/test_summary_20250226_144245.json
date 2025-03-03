@@ -1,0 +1,155 @@
+{
+  "timestamp": "2025-02-26T14:42:32.589173",
+  "overall_metrics": {
+    "Container Workloads Onboarded": 228,
+    "Packages Onboarded": 126,
+    "APIGW Workloads Onboarded": 73,
+    "overall_test_summary": {
+      "Package Deployments": 26,
+      "Workload Deployments": 904,
+      "Lambda Functions Onboarded": 111
+    },
+    "total_tests": 32842,
+    "passed_tests": 28924,
+    "failed_tests": 3918,
+    "success_rate": 88.07015407100664
+  },
+  "capabilities": {
+    "core": {
+      "total_tests": 7945,
+      "passed_tests": 6518,
+      "failed_tests": 1427,
+      "success_rate": 82.039018250472,
+      "metrics": {
+        "Container Workloads Onboarded": 28,
+        "APIGW Workloads Onboarded": 11,
+        "Lambda fn Onboarded": 13,
+        "Packages Onboarded": 40,
+        "Workload Deployments": 66,
+        "Package Deployments": 1
+      }
+    },
+    "accounts": {
+      "total_tests": 6528,
+      "passed_tests": 6218,
+      "failed_tests": 310,
+      "success_rate": 95.25122549019608,
+      "metrics": {
+        "Container Workloads Onboarded": 51,
+        "APIGW Workloads Onboarded": 20,
+        "Lambda fn Onboarded": 30,
+        "Packages Onboarded": 46,
+        "Workload Deployments": 192,
+        "Package Deployments": 1
+      }
+    },
+    "gma": {
+      "total_tests": 0,
+      "passed_tests": 0,
+      "failed_tests": 0,
+      "success_rate": 0,
+      "metrics": {
+        "Workloads Onboarded": 3,
+        "Packages Onboarded": 3,
+        "Workload Deployments": 0
+      }
+    },
+    "mdsc": {
+      "total_tests": 32,
+      "passed_tests": 32,
+      "failed_tests": 0,
+      "success_rate": 100.0,
+      "metrics": {
+        "Container Workloads Onboarded": 10,
+        "APIGW Workloads Onboarded": 3,
+        "Lambda fn Onboarded": 1,
+        "Packages Onboarded": 1,
+        "Workload Deployments": 47,
+        "Package Deployments": 3
+      }
+    },
+    "delivery": {
+      "total_tests": 4924,
+      "passed_tests": 3877,
+      "failed_tests": 1047,
+      "success_rate": 78.73679935012186,
+      "metrics": {
+        "Container Workloads Onboarded": 29,
+        "APIGW Workloads Onboarded": 2,
+        "Lambda fn Onboarded": 5,
+        "Packages Onboarded": 1,
+        "Workload Deployments": 201,
+        "Package Deployments": 0
+      }
+    },
+    "orders": {
+      "total_tests": 52,
+      "passed_tests": 15,
+      "failed_tests": 37,
+      "success_rate": 28.846153846153843,
+      "metrics": {
+        "Container Workloads Onboarded": 22,
+        "APIGW Workloads Onboarded": 7,
+        "Lambda fn Onboarded": 12,
+        "Packages Onboarded": 9,
+        "Workload Deployments": 76,
+        "Package Deployments": 0
+      }
+    },
+    "offers": {
+      "total_tests": 2378,
+      "passed_tests": 1682,
+      "failed_tests": 696,
+      "success_rate": 70.73170731707317,
+      "metrics": {
+        "Container Workloads Onboarded": 37,
+        "APIGW Workloads Onboarded": 24,
+        "Lambda fn Onboarded": 45,
+        "Packages Onboarded": 7,
+        "Workload Deployments": 130,
+        "Package Deployments": 0
+      }
+    },
+    "menu": {
+      "total_tests": 0,
+      "passed_tests": 0,
+      "failed_tests": 0,
+      "success_rate": 0,
+      "metrics": {
+        "Container Workloads Onboarded": 21,
+        "APIGW Workloads Onboarded": 2,
+        "Packages Onboarded": 6,
+        "Workload Deployments": 16,
+        "Package Deployments": 0
+      }
+    },
+    "tpodelivery": {
+      "total_tests": 0,
+      "passed_tests": 0,
+      "failed_tests": 0,
+      "success_rate": 0,
+      "metrics": {
+        "Container Workloads Onboarded": 14,
+        "APIGW Workloads Onboarded": 1,
+        "Lambda fn Onboarded": 1,
+        "Packages Onboarded": 1,
+        "Workload Deployments": 0,
+        "Package Deployments": 0
+      }
+    },
+    "payments": {
+      "total_tests": 10983,
+      "passed_tests": 10582,
+      "failed_tests": 401,
+      "success_rate": 96.34890284985887,
+      "metrics": {
+        "Container Workloads Onboarded": 13,
+        "APIGW Workloads Onboarded": 3,
+        "Lambda fn Onboarded": 4,
+        "Packages Onboarded": 12,
+        "Workload Deployments": 176,
+        "Package Deployments": 24
+      }
+    }
+  }
+}

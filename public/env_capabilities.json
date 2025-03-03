@@ -1,0 +1,14 @@
+{
+    "capabilities": [
+      "accounts",
+      "core",
+      "delivery",
+      "gma",
+      "mdsc",
+      "menu",
+      "offers",
+      "orders",
+      "payments",
+      "tpodelivery"
+    ]
+  }

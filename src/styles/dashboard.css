@@ -1,0 +1,42 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  padding: 1.5em;
+  max-width: 80%;
+  flex-flow: column;
+  background-color: #F5F5F5;
+  border: 0.3em solid #FFCC00;
+  box-shadow: 0 14px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.container h2 {
+  margin-top: 0;
+}
+
+.page-container {
+  display: flex;
+  flex-flow: column;
+  gap: 2em;
+  align-items: center;
+  min-width: 410px;
+}
+
+.page-container h2 {
+  color: #DA291C;
+  font-size: 2em;
+}
+.pie-table-container {
+  display: flex;
+  /* gap: 1em; */
+}

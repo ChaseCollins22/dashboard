@@ -1,0 +1,25 @@
+header {
+  background-color: #DA291C;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  border: 3px solid #FFCC00;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  display: inline;
+  color: white;
+  size: 12px;
+}
+
+.inline-logo {
+  height: 1em;           
+  width: auto;
+  vertical-align: baseline;   
+  margin-left: 0.5em;     
+}
