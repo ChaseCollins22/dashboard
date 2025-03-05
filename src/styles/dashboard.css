@@ -12,13 +12,11 @@ html, body {
 .container {
   display: flex;
   padding: 1.5em;
-  /* max-width: 80%; */
-  flex-flow: column;
   background-color: #F5F5F5;
-  /* border: 0.3em solid #FFCC00; */
   box-shadow: 0 14px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  margin-top: 1.25%;
+  margin: 1.25%;
+  width: 100%;
 }
 
 .container h2 {
@@ -36,12 +34,8 @@ html, body {
 .page-container h2 {
   color: #DA291C;
   font-size: 2em;
-  margin: 2em 0 0 0;
+  margin: 1em 0 0 0;
   align-self: baseline;
-}
-
-.pie-table-container {
-  display: flex;
 }
 
 .capability-card-container {
@@ -57,15 +51,19 @@ html, body {
   min-width: 0;
 }
 
+@media (max-width: 1440px) {
+  .capability-card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 @media (max-width: 768px) {
   .capability-card-container {
     grid-template-columns: 1fr;
   }
-}
 
-@media (max-width: 1440px) {
-  .capability-card-container {
-    grid-template-columns: repeat(2, 1fr);
+  .container {
+    flex-flow: column;
   }
 }
 
@@ -73,5 +71,5 @@ html, body {
   display: flex;
   flex-flow: column;
   width: 81%;
-  max-height: 750px;
+  /* max-height: 800px; */
 }

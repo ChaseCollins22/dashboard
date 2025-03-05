@@ -39,18 +39,18 @@ function Dashboard() {
         <div className='test-card-container'>
           <h2>Overall Metrics</h2>
           <div className='container'>
-            <div className='pie-table-container'>
-              {testData && <>
-                <BasicPie data={[
-                  { id: 0, value: testData.passed_tests, label: `Passed tests`, color: '#FFCC00' },
-                  { id: 1, value: testData.failed_tests, label: 'Failed tests', color: '#DA291C' },
-                  { id: 2, value: 0, label: `Total tests: ${testData.total_tests.toLocaleString('en-us')}`, color: 'white' },
-                  { id: 3, value: testData.success_rate, label: `Success rate: ${testData.success_rate.toFixed(2).toLocaleString('en-us')}%`, color: 'green' },
-                ]} />
-                <BasicTable />
-              </>
-              }
-            </div>
+
+            {testData && <>
+              <BasicPie data={[
+                { id: 0, value: testData.passed_tests, label: `Passed tests`, color: '#FFCC00' },
+                { id: 1, value: testData.failed_tests, label: 'Failed tests', color: '#DA291C' },
+                { id: 2, value: 0, label: `Total tests: ${testData.total_tests.toLocaleString('en-us')}`, color: 'transparent' },
+                { id: 3, value: 0, label: `Success rate: ${testData.success_rate.toFixed(2).toLocaleString('en-us')}%`, color: 'transparent' },
+              ]} />
+              <BasicTable />
+            </>
+            }
+
           </div>
         </div>
         <div className='test-card-container'>
