@@ -3,20 +3,12 @@ import * as React from 'react';
 import '../styles/basicPie.css';
 
 export default function BasicPie({ data }) {
-  //[...data].map(dataObj => console.log(dataObj));
-
   const hasValidData = Array.isArray(data) && [...data].filter(dataObj => {
     return !(dataObj.label.includes('Total') || dataObj.label.includes('Success'))
   }).some(dataObj => dataObj.value != 0)
 
-  console.log([...data].filter(dataObj => {
-    return !(dataObj.label.includes('Total') || dataObj.label.includes('Success'))
-  }))
-
   const placeholderData = [{ id: 'noData', value: 1, label: 'No tests performed', color: '#cccccc' }];
   const displayData = hasValidData ? data : placeholderData;
-  // console.log(data);
-
 
   return (
     <div className="pie-container">
@@ -24,9 +16,8 @@ export default function BasicPie({ data }) {
         series={[
           {
             data: displayData,
-            // data,
             innerRadius: 40,
-            outerRadius: 130,
+            outerRadius: 120,
             paddingAngle: 1,
             cornerRadius: 5,
           },

@@ -1,5 +1,5 @@
 import '../styles/capabilityCard.css'
-import BarChart from './BarChart.jsx'
+import BarChart from './BasicBarChart.jsx'
 import BasicPie from './BasicPie.jsx'
 
 
