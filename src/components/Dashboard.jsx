@@ -131,6 +131,7 @@ function Dashboard() {
           </>}
         </div>
       </div>
+      <div style={{ height: '7em' }}></div>
     </>
   );
 }

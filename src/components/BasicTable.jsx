@@ -55,7 +55,7 @@ export default function BasicTable({ clarityData }) {
       }
 
       return (
-        <Box sx={{ height: 400, width: '100%' }} key={`table-${idx}`}>
+        <Box sx={{ width: '100%', marginBottom: '2em' }} key={`table-${idx}`}>
           <h3 style={{ color: '#DA291C', margin: '2em 1em 1em 0' }}>
             {metricName}
           </h3>
@@ -69,6 +69,7 @@ export default function BasicTable({ clarityData }) {
             }}
             pageSizeOptions={[5, 10]}
           />
+
         </Box>
       );
     });
